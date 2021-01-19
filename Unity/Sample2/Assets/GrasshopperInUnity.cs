@@ -42,12 +42,12 @@ public class GrasshopperInUnity : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
-    gameObject.AddComponent<MeshFilter>();
+    //gameObject.AddComponent<MeshFilter>();
 
-    gameObject.AddComponent<MeshRenderer>().material = new Material(Shader.Find("Standard"))
-    {
-      color = new Color(1.0f, 0.0f, 0.0f, 1f)
-    };
+    //gameObject.AddComponent<MeshRenderer>().material = new Material(Shader.Find("Standard"))
+    //{
+     // color = new Color(1.0f, 0.0f, 0.0f, 1f)
+    //};
 
   }
 

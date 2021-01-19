@@ -28,5 +28,6 @@ public class RhinoInside
         _rhinoCore = new RhinoCore(new string[] { "/scheme=Unity", "/nosplash" }, WindowStyle.Minimized, hParent);
       }
     }
+    GC.SuppressFinalize(_rhinoCore);
   }
 }
